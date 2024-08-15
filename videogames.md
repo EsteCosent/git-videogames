@@ -2,7 +2,7 @@
 
 ## Adventure
 
-- The Legend of Zelda: Ocarina of Time
+- [The Legend of Zelda: Ocarina of Time](./adventure/zelda-ocarina.md)
 
 ## Fighting
 
