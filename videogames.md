@@ -12,7 +12,7 @@
 
 - Grand Theft Auto III
 
-## Platformers
+## Platformer
 
 - Super Mario Bros
 
