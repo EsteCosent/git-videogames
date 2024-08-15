@@ -13,10 +13,10 @@ Objetivo: practicar el formato Markdown.
 
 ## Parte A Ficha de videojuego
 
-1. Dentro del repositorio, en la terminal ejecutar `mkdir fps` para crear un nuevo directorio. Moverse al directorio ejecutando `cd /FPS`. 
+1. Dentro del repositorio, en la terminal ejecutar `mkdir FPS` para crear un nuevo directorio. Moverse al directorio ejecutando `cd /FPS`. 
 2. Ejecutar `touch DOOM.md` para crear un nuevo archivo. Editar el archivo insertando una tabla Markdown que contiene la información del videojuego.
 ```
-| *DOOM* |
+| *DOOM* | |
 | --- | --- |
 | **Year** | 1993 |
 | **Developer** | id Software |
