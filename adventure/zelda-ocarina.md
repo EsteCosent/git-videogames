@@ -2,3 +2,5 @@
 | ----------- | ----------- |
 | **Year** | 1998 |
 | **Developer** | Nintendo |
+
+![game cover art](zelda-ocarina.jpg)
