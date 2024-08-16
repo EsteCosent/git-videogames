@@ -32,10 +32,11 @@ Objetivo: practicar el formato Markdown.
 - Lista sin ordenar con el ítem `- DOOM`.
 - Link interno del repositorio del ítem de lista a la ficha del juego `- [DOOM](./FPS/DOOM.md)`
 
-## Parte C Imágenes
+## Parte C Imágenes y emoji
 
 5. Buscar una imagen que ilustre el juego DOOM y subir el archivo al repositorio en el directorio `FPS`.
 6. Editar el archivo `DOOM.md` para insertar la imagen usando Markdown `![DOOM screenshot](doom-screenshot.jpg)`.
+7. Insertar un emoji :video_game: en el título `Videogames Hall of Fame :video_game:`
 
 ## Finalización 
 
