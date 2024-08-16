@@ -36,10 +36,10 @@ Objetivo: practicar el formato Markdown.
 
 5. Buscar una imagen que ilustre el juego DOOM y subir el archivo al repositorio en el directorio `FPS`.
 6. Editar el archivo `DOOM.md` para insertar la imagen usando Markdown `![DOOM screenshot](doom-screenshot.jpg)`.
-7. Insertar un emoji :video_game: en el título `Videogames Hall of Fame :video_game:`
+7. Insertar un emoji :video_game: en el título `# Videogames Hall of Fame :video_game:`
 
 ## Finalización 
 
-7. Ejecutar `push origin main` para llevar los cambios al repositorio remoto GitHub.
-8. Realizar una captura de pantalla que visualice el archivo `DOOM.md` en GitHub (web).
-9. Crear un nuevo Issue en GitHub con el subject `Markdown preview` y subir la captura de pantalla realizada en el cuerpo del issue.
+8. Ejecutar `push origin main` para llevar los cambios al repositorio remoto GitHub.
+9. Realizar una captura de pantalla que visualice el archivo `DOOM.md` en GitHub (web).
+10. Crear un nuevo Issue en GitHub con el subject `Markdown preview` y subir la captura de pantalla realizada en el cuerpo del issue.
