@@ -6,7 +6,7 @@
 
 ## Fighting
 
-- Street Fighter II
+- [Street Fighter II](./fighting/street-fighter-ii.md)
 
 ## Open world
 
