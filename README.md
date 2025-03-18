@@ -1,6 +1,6 @@
 # 🎮 Ejercicio Videogames
 
-**Objetivo:** practicar el formato Markdown.
+**Objetivo:** Practicar el formato Markdown.
 
 > 💡 **Tip:** usar como referencia la [guía de Markdown](https://www.markdownguide.org/cheat-sheet/)
 
@@ -11,7 +11,7 @@
 - Clonar localmente el repositorio ejecutando en la terminal `git clone 'url/git-videogames-USERNAME'`.
 - Moverse al repositorio ejecutando `cd /git-videogames-USERNAME`.
 
-**⚠️ Importante:** realizar `commit` luego de cada paso del ejercicio.  
+**⚠️ Importante:** Realizar `commit` luego de cada paso del ejercicio.  
 
 ------
 
@@ -52,6 +52,6 @@
 
 ## ✅ Finalización 
 
-8. Ejecutar `push origin main` para llevar los cambios al repositorio remoto GitHub.
-9. Realizar una captura de pantalla que visualice el archivo `DOOM.md` en GitHub (web).
+8. Ejecutar `git push origin main` para llevar los cambios al repositorio remoto GitHub.
+9. Realizar una captura de pantalla donde se visualice el archivo `DOOM.md` en GitHub (web).
 10. Crear un nuevo Issue en GitHub con el subject `Markdown preview` y subir la captura de pantalla realizada en el cuerpo del issue.
