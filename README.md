@@ -37,13 +37,7 @@ El directorio `docs/` contiene las fichas de los juegos en formato Markdown. Exp
    ```bash
    mkdir docs/puzzle
    ```
-2. Crear el archivo `docs/puzzle/tetris.md` y agregar una tabla con la información del juego:
-   ```markdown
-   | *Tetris*        |                  |
-   | --------------- | ---------------- |
-   | **Year**        | 1984             |
-   | **Developer**   | Alexey Pajitnov  |
-   ```
+2. Crear el archivo `docs/puzzle/tetris.md` y agregar una tabla con la información del juego similar a los cuadros de Street Fighter II y Zelda Ocarina. El año de publicación del juego fue 1984 y el desarrollador Alexey Pajitnov.
 
 ### A2. Links y listas
 
@@ -52,17 +46,10 @@ El directorio `docs/` contiene las fichas de los juegos en formato Markdown. Exp
    - Agregar un link a la fuente en Wikipedia.
    - Convertir el ítem `Tetris` en un link interno a la ficha recién creada: `[Tetris](./puzzle/tetris.md)`.
 
-### A3. Imágenes y emoji
+### A3. Imágenes
 
 4. Buscar una imagen de Tetris y agregarla al directorio `docs/puzzle/`.
-5. Insertar la imagen en `docs/puzzle/tetris.md`:
-   ```markdown
-   ![Tetris screenshot](tetris-screenshot.jpg)
-   ```
-6. Agregar un emoji al título de `docs/videogames.md`:
-   ```markdown
-   # Videogames Hall of Fame 🎮
-   ```
+5. Insertar la imagen en `docs/puzzle/tetris.md`.
 
 ### Commit y push
 
@@ -79,15 +66,6 @@ Explorá el código fuente antes de continuar:
 - `src/domain/GamesList.ts` — clase que maneja la colección de juegos
 - `src/main.ts` — renderiza las cards y conecta la UI
 
-Buscá en el código las líneas marcadas con `// TODO` y leé los comentarios para entender qué se espera implementar.
-
-Podés correr los tests para ver qué está pendiente:
-```bash
-npm run test
-```
-
-Completá los dos `TODO` que están en el código fuente.
-
 ### TODO 1 — Filtro por género (`src/domain/GamesList.ts`)
 
 El método `filterByGenre` recibe un género como parámetro y debe retornar solo los juegos que coinciden. Si el género es `'All'`, debe retornar todos los juegos.
@@ -96,21 +74,21 @@ Hacer commit en main con el mensaje "Add filterByGenre functionality" y push de 
 
 ### TODO 2 — Contador de juegos (`src/main.ts`)
 
-La función `updateCounter` recibe una instancia de `GamesList` y debe mostrar el número de juegos registrados en el elemento `#count` del HTML.
+La función `updateCounter` recibe un número y debe mostrarlo en el elemento `#count` del HTML. El contador se actualiza cada vez que el usuario filtra por género.
 
 Hacer commit en main con el mensaje "Add updateCounter functionality" y push de los cambios.
 
-### Verificación
+### TODO 3 — Imagen de Tetris (`src/domain/GamesList.ts`)
 
-Una vez completados los TODOs:
+La app muestra todos los juegos con su imagen excepto Tetris, que usa un placeholder. Tu tarea es conseguir una imagen del juego y agregarla al repositorio.
 
-```bash
-npm run test
-```
+1. Buscar una imagen de Tetris (screenshot, portada, etc.).
+2. Guardarla en `public/puzzle/` con el nombre `tetris.png` (o `.jpg`).
+3. Actualizar la ruta en `GamesList.ts` reemplazando `/placeholder.svg` por la ruta correcta.
 
-Todos los tests deberían pasar. Además, en la app los botones de filtro deberían funcionar y el contador actualizarse al filtrar.
+Verificá en la app que la card de Tetris muestre la imagen.
 
----
+Hacer commit en main con el mensaje "Add tetris image" y push de los cambios.
 
 ## ✅ Finalización
 
