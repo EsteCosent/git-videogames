@@ -54,6 +54,7 @@ Hacer commit en main con el mensaje "Add updateCounter functionality" y push de 
 3. Crear un nuevo Issue en GitHub con el título `Aplicación Web` y adjuntar la captura en el cuerpo del issue.
 
 ## Referencias
+- Git: https://git-scm.com/book/en/v2
 - Markdown Cheat Sheet: https://www.markdownguide.org/cheat-sheet/
 - TypeScript: https://www.w3schools.com/typescript/
 - HTML: https://www.w3schools.com/html/
