@@ -7,13 +7,13 @@ export class GamesList {
       1998,
       'Nintendo',
       'Adventure',
-      '/adventure/zelda-ocarina.jpg',
+      '/zelda-ocarina.jpg',
     ),
-    new Game('Street Fighter II', 1991, 'Capcom', 'Fighting', '/fighting/Street_Fighter_II_screenshot.png'),
-    new Game('Super Mario Bros', 1985, 'Nintendo', 'Platformer', '/platformer/super-mario-bros.png'),
-    new Game('DOOM', 1993, 'id Software', 'FPS', '/fps/doom.jpg'),
-    new Game('Tetris', 1984, 'Alexey Pajitnov', 'Puzzle', '/placeholder.svg'),
-    new Game('Minecraft', 2011, 'Mojang', 'Sandbox', '/sandbox/minecraft.png'),
+    new Game('Street Fighter II', 1991, 'Capcom', 'Fighting', '/street-fighter-ii.png'),
+    new Game('Super Mario Bros', 1985, 'Nintendo', 'Platformer', '/super-mario-bros.png'),
+    new Game('DOOM', 1993, 'id Software', 'FPS', '/doom.jpg'),
+    new Game('Tetris', 1984, 'Alexey Pajitnov', 'Puzzle', '/tetris.png'),
+    new Game('Minecraft', 2011, 'Mojang', 'Sandbox', '/minecraft.png'),
   ]
 
   // TODO: retornar solo los juegos cuyo género coincide con el parámetro genre.
