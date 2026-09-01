@@ -5,13 +5,14 @@
 
 ## ⚙️ Setup inicial
 
-1. Clonar el repositorio y moverse al directorio:
+1. Realiza un fork del repositorio. A partir de este punto, se trabajará en el repositorio creado en este paso.
+2. Clonar el repositorio y moverse al directorio:
    ```bash
    git clone <url/git-videogames-USERNAME>
    cd git-videogames-USERNAME
    ```
-2. Instalar dependencias con `npm install`
-3. Levantar la app con `npm run dev`. Abrí el link que aparece en la terminal (`http://localhost:5173`) y verificá que la app cargue.
+3. Instalar dependencias con `npm install`
+4. Levantar la app con `npm run dev`. Abrí el link que aparece en la terminal (`http://localhost:5173`) y verificá que la app cargue.
 
 ## 📝 Parte A — Git y Markdown
 
